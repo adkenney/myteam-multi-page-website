@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as *;
+
+#hero {
+  flex-direction: column;
+  text-align: center;
+  gap: 1em;
+}
+
+#hero p {
+  line-height: 1.75rem;
+}
+
+#hero span {
+  color: $color-light-coral;
+}

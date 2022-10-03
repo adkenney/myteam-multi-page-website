@@ -1,0 +1,26 @@
+@use '../abstracts' as *;
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 8em;
+  height: 2em;
+  margin-right: auto;
+}
+
+.menu-btn {
+  border-style: none;
+  background-color: inherit;
+}
+
+.menu-btn svg {
+  height: 1em;
+  width: 1.25em;
+  stroke-width: 3px;
+  stroke-linecap: square;
+  stroke: $color-primary-text;
+}

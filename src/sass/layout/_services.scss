@@ -1,0 +1,18 @@
+@use '../abstracts/variables' as *;
+
+#services {
+  background-color: $color-sacstate-green;
+  gap: 1em;
+}
+
+#services h3 {
+  color: $color-light-coral;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2em;
+}

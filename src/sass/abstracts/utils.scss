@@ -1,0 +1,15 @@
+@use './variables' as *;
+
+.container {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.divider {
+  height: 0.25rem;
+  width: 2rem;
+  background-color: $color-light-coral;
+}

@@ -1,0 +1,32 @@
+@use '../abstracts/variables' as *;
+
+#testimonials {
+  background-color: $color-deep-jungle-green;
+  text-align: center;
+  gap: 2em;
+}
+
+#testimonials span {
+  color: $color-rapture-blue;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.avatar img {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  border: 2px solid cyan;
+}

@@ -1,0 +1,81 @@
+@use '../abstracts/variables' as *;
+
+footer {
+  background-color: $color-dark-green;
+  text-align: center;
+}
+
+footer img {
+  height: 1.5em;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+footer > div {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.footer-contact p,
+.copyright {
+  opacity: 0.7;
+}
+
+.footer-heading {
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  color: $color-sacstate-green;
+  background-color: $color-light-coral;
+  gap: 1em;
+}
+
+.contact-btn {
+  font-size: 1.125rem;
+  font-weight: 600;
+  background-color: inherit;
+  border: 2px solid $color-sacstate-green;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  width: 8em;
+  height: 2.5em;
+}
+
+.contact-btn:hover {
+  background-color: $color-sacstate-green;
+  color: $color-primary-text;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  gap: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.footer-links a:hover {
+  color: $color-light-coral;
+}
+
+.social-links svg path:hover {
+  fill: $color-light-coral;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.9375rem;
+  line-height: 1.56;
+}
