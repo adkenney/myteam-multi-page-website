@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as *;
+
+#clients {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: $color-sacstate-green;
+}
+
+.client-logos {
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2em;
+  min-width: 30%;
+  max-width: 50%;
+}
