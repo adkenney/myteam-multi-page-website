@@ -1,0 +1,23 @@
+@use '../abstracts/variables' as *;
+
+#contact {
+  gap: 3.5rem;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.heading-secondary > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 1.5rem;
+}
+#contact h1 {
+  margin-bottom: 0.5em;
+}
+#contact h2 {
+  color: $color-light-coral;
+}
