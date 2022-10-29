@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import FooterLogo from '../assets/logo.svg';
 import { ReactComponent as FbLogo } from '../assets/icon-facebook.svg';
 import { ReactComponent as PintLogo } from '../assets/icon-pinterest.svg';
@@ -11,8 +12,8 @@ const Footer = () => {
         <div>
           <img src={FooterLogo} alt="my team logo"></img>
           <div className="footer-links">
-            <a href="#">home</a>
-            <a href="#">about</a>
+            <Link to="/">home</Link>
+            <Link to="/about">about</Link>
           </div>
         </div>
         <div className="footer-contact">
